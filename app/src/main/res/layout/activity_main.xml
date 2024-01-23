@@ -8,7 +8,7 @@
 
     <androidx.fragment.app.FragmentContainerView
         android:id="@+id/fragment_contactlist"
-        android:name="com.example.adhoc_pract_2.ContactList"
+        android:name="com.example.adhocpractical_2.ContactList"
         android:layout_width="189dp"
         android:layout_height="660dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -18,7 +18,7 @@
 
     <androidx.fragment.app.FragmentContainerView
         android:id="@+id/fragment_contactdetaillist"
-        android:name="com.example.adhoc_pract_2.ContactDetailList"
+        android:name="com.example.adhocpractical_2.ContactDetailList"
         android:layout_width="224dp"
         android:layout_height="660dp"
         app:layout_constraintBottom_toBottomOf="parent"
