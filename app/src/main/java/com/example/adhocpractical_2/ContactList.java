@@ -10,10 +10,10 @@ import android.widget.ListView;
 import androidx.fragment.app.ListFragment;
 
 public class ContactList extends ListFragment {
-    String[] contactlist = new String[]{"JOHN", "ANN", "KEN", "MARY", "PETER", "JANE"};
-    String[] email = new String[]{"john@sp.com", "ann@sp.com", "ken@sp.com", "mary@sp.com", "peter@sp.com", "jane@sp.com"};
-    String[] address = new String[]{"500 Dover Road", "15 Clementi North", "300 Clementi Road", "Something", "Pasir Ris Drive 3", "9 Yishun Ring Road"};
-    String[] phone = new String[]{"98232984", "82345678", "95384958", "54984365", "23456475", "98765000"};
+    String[] contactlist = new String[]{"JOHN", "ANN", "KEN", "MARY", "PETER", "JANE", "ZYT"};
+    String[] email = new String[]{"john@sp.com", "ann@sp.com", "ken@sp.com", "mary@sp.com", "peter@sp.com", "jane@sp.com", "zyt@sp.com"};
+    String[] address = new String[]{"500 Dover Road", "15 Clementi North", "300 Clementi Road", "Something", "Pasir Ris Drive 3", "9 Yishun Ring Road", "500 Dover Rd"};
+    String[] phone = new String[]{"98232984", "82345678", "95384958", "54984365", "23456475", "98765000", "54543665"};
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
